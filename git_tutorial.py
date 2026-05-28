@@ -1,4 +1,7 @@
+"""Module providing function for adding and substracting numbers"""
+
 def add_numbers(a,b,c):
+    """returns the sum of a,b, andc """
     return sum(a,b,c)
 
 # 1. extend add_numbers to allow an arbitrary number of parameters
@@ -7,4 +10,5 @@ def add_numbers(a,b,c):
 # 4. add documentation for add_number()
 
 def cal_diff(a, b):
-    return a - b 
+    """return the difference of a, and b"""
+    return a - b
